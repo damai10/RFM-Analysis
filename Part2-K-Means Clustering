@@ -1,0 +1,108 @@
+# 🤖 Customer Segmentation using K-Means Clustering (Part 2)
+
+This project is a continuation of **RFM Analysis (Part 1)**, where we apply Machine Learning techniques to segment customers into distinct groups based on their purchasing behavior.
+
+The objective is to transform customer data into actionable segments that can support targeted marketing and business strategies.
+
+---
+
+## 🔧 Tools & Technologies Used
+
+- Python  
+- Pandas  
+- Scikit-learn  
+- Matplotlib / Seaborn  
+- Jupyter Notebook  
+
+---
+
+## 📁 Dataset
+
+- Online Retail Dataset (same dataset used in Part 1)
+
+---
+
+## ⚙️ Methodology
+
+### 1️⃣ Feature Selection
+
+Used RFM metrics derived in Part 1:
+- Recency  
+- Frequency  
+- Monetary  
+
+---
+
+### 2️⃣ Feature Scaling
+
+Applied **StandardScaler** to normalize the data before clustering.
+
+---
+
+### 3️⃣ Optimal Cluster Selection
+
+Used the **Elbow Method** to determine the optimal number of clusters.
+
+---
+
+### 4️⃣ K-Means Clustering
+
+Applied K-Means algorithm to group customers into segments based on behavior patterns.
+
+---
+
+### 5️⃣ Segment Labeling
+
+Clusters were interpreted and labeled as:
+- High Value Customers  
+- Mid Value Customers  
+- Low Value Customers  
+
+---
+
+## 📊 Visualization
+
+- Elbow Curve → To identify optimal number of clusters  
+- Scatter Plot → Customer segments based on Frequency & Monetary value  
+
+---
+
+## 💡 Key Insights
+
+- K-Means clustering successfully grouped customers into distinct behavioral segments  
+- High-value customers contribute significantly to overall revenue and should be prioritized for retention  
+- Mid-value customers present opportunities for upselling and engagement  
+- Low-value customers can be targeted with promotional strategies to increase activity  
+
+---
+
+## 🚀 Business Impact
+
+Customer segmentation enables:
+
+- Personalized marketing campaigns  
+- Improved customer retention strategies  
+- Better allocation of business resources  
+- Data-driven decision-making  
+
+---
+
+## 🔗 Project Continuity
+
+This project builds upon:
+
+➡️ **Part 1: RFM Analysis**
+
+Together, both parts provide a complete pipeline from **data analysis → customer segmentation → business insights**
+
+---
+
+## 📁 Files Included
+
+- Jupyter Notebook (`.ipynb`)  
+- Dataset (`.csv / .xlsx`)  
+- Visualizations  
+
+---
+
+💡 This project demonstrates how Machine Learning can enhance traditional data analysis to generate deeper business insights.
